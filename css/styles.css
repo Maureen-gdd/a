@@ -143,6 +143,7 @@ h1
 .ligne1 img
 {
 	border-radius:50px;
+	padding:5%;
 	/*Noir et blanc*/
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
