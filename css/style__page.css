@@ -46,3 +46,109 @@
 {
     height:1000px;
 }
+
+.logo
+{
+	height:100px;
+	width:100px;
+}
+
+.sous-titre
+{
+	text-align: center;
+	border-radius:10px;
+	margin-top:2em;
+	background-color:#F5BB47;
+}
+
+.sous-titre a
+{
+	color:#222014;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.MG
+{
+	padding-top:8em;
+}
+/*
+.sous-titre-bis
+{
+	text-align: center;
+	border-radius:10px;
+	margin-top:2em;
+	background-color:#149179;
+	color:white;
+}
+*/
+
+/************BOUTON RETOUR***************************************/
+.bouton {
+	transition: .4s;
+	padding: 1em 2em;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background: #DE3543;
+    text-align: center;
+    border-radius: 3px;
+}
+.bouton:hover {
+	transition: .4s;
+    background: #AB2934;
+    color:white;
+    text-decoration:none;
+}
+
+.retour .container{
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.droit
+{
+	background:#5E171D;
+	padding: 0.5em 0;
+}
+
+.droit p
+{
+	text-align:center;
+	color:white;
+}
+/***********************************RESPONSIVE**************************************/
+
+@media screen and (max-width: 628px) {
+
+    .title_infos
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .title h2
+    {
+        font-size: 3em
+    }
+   
+    
+}
+
+@media screen and (max-width: 376px) {
+    .title h2{
+        font-size: 2.5em
+    }
+    .description p{
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .title h2{
+        font-size: 1.8em
+    }
+}
