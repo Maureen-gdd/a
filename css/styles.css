@@ -142,14 +142,14 @@ h1
 }
 
 /****************************FOOTER******************************/
-.droit
+.droit_bis
 {
 	background:#5B7F77;
 	padding: 0.5em 0;
 	margin-bottom:1em;
 }
 
-.droit p
+.droit_bis p
 {
 	text-align:center;
 	color:white;
